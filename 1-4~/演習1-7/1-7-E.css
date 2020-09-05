@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+  }
+header{
+ width: 100%;
+ height: 400px;
+ background-image: url(img/mv.jpg);
+ background-size: cover; /* 縦横比を維持したまま背景領域を埋め尽くす */
+background-position: bottom; /*背景画像を後ろから設置？*/
+}
+.headline{
+    padding: 20px;
+}
+main {
+    width: 840px;
+    margin: 50px auto;
+}
+.blog-text{
+    padding: 10px;
+    line-height:30px;
+}
+.kan{
+    margin-top:30px;
+    border-bottom: 1px solid #d1d1d1;
+    margin: 30px auto;
+}
